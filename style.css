@@ -116,6 +116,9 @@ td:hover{
     width: 150px;
     height: 100px;
 }
+.fa-star, .fa-star-half-alt{
+    color: orange;
+}
 
 
 /* Footer */
