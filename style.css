@@ -136,7 +136,8 @@ td:hover{
     padding: 5px;
 }
 
-/* Media query */
+/* Media queries */
+/* mobile devices */
 @media only screen and (max-width:688px) {
     .top-section{
         flex-direction: column;  
@@ -177,5 +178,37 @@ td:hover{
     .footer-section img{
         width: 300px;
         height: 100px;
+    }
+}
+
+/* tablet devices */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .top-section{
+        justify-content: center;
+        width: 100%;
+        padding: 50px;
+    }
+    .banner{
+        font-size: 20px;
+    }
+    .banner-img img{
+        width: 300px;
+        height: 250px;
+        padding-top: 30px;
+        padding-right: 30px;
+        
+    }
+   
+    .player-section{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px 0 0 0;
+        width: 100%;
+        
+    }
+    .rating-section{
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 0;
+        margin-right: 0;
+        grid-row-gap: 15px;
     }
 }
